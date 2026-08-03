@@ -1,0 +1,5 @@
+nb2.py
+images2.json
+gen*.log
+images/*.png
+verdicts/
