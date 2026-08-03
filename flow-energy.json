@@ -1,0 +1,17 @@
+{
+  "slug": "hodba-flow-energy",
+  "style_base": "Premium cinematic art direction, dark graphite tones with glowing warm orange energy light, editorial science aesthetic, sharp detail, atmospheric depth.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no cartoon, no cheap 3d render look, no visible faces, no Asian or African features.",
+  "images": [
+    {
+      "id": "energy1",
+      "ratio": "1152:896",
+      "prompt": "Cinematic image seen from behind: a group of four people walking forward together along a dark city embankment at dawn, long streams of glowing warm orange energy flowing through their bodies and trailing behind them like light ribbons, bright energy currents rising from the pavement up through their legs, sparks scattering from each step, dark blue morning tones, powerful sense of shared momentum"
+    },
+    {
+      "id": "energy2",
+      "ratio": "1152:896",
+      "prompt": "Wide cinematic frame from behind: several silhouettes walking in the same direction along a dark wet promenade, each figure outlined and filled with glowing orange energy lines, streams of light connecting them and flowing forward into the horizon like a current, dark graphite background with deep reflections, sparks trailing from the feet, premium science art direction"
+    }
+  ]
+}
