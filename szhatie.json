@@ -1,0 +1,13 @@
+{
+  "slug": "hodba-szhatie",
+  "style_base": "Cinematic premium editorial art direction, moody contrast between an open bright environment and a closed tense body, sharp detail, film grain, museum quality concept photography.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no cartoon, no horror, no gore, no Asian or African features, no readable face."
+  ,
+  "images": [
+    {
+      "id": "szhatie",
+      "ratio": "1152:896",
+      "prompt": "Concept editorial image seen from behind and slightly above: a modern young Slavic European man walks along a wide bright morning city street, but his shoulders are pulled up tight and his head is bowed over a phone in his hand, around his head and shoulders swirls a dense dark cloud of tangled thought lines compressing him, thin dark bands wrap his chest like invisible tension, while the street ahead is wide, sunlit and completely open, strong contrast between the free space and the closed body, cinematic depth"
+    }
+  ]
+}
