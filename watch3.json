@@ -1,0 +1,13 @@
+{
+  "slug": "hodba-watch3",
+  "style_base": "Iconic sportswear campaign photography, modern stadium architecture, graphite concrete and asphalt tones, hard directional light with deep clean shadows, minimal composition, editorial retouch, expensive premium styling.",
+  "negative": "No forest, no trees, no park, no grass, no cap, no hat, no messy hair, no cheap clothes, no watermark, no logo, no brand marks, no cartoon, no Asian or African features."
+  ,
+  "images": [
+    {
+      "id": "watchstadium",
+      "ratio": "1152:896",
+      "prompt": "Sportswear campaign shot at a modern stadium: a stylish athletic Slavic European man in his early thirties with a sharp fade haircut and light stubble, bare head, wearing a sleek matte black technical jacket, standing on a graphite grey running track beside clean concrete stands, looking down at the premium smartwatch on his raised wrist, the watch screen clearly shows a bright red heartbeat pulse line and a heart rate number, hard side light carving sharp shadows, cool graphite and concrete palette with one warm highlight, minimal modern architecture behind, ultra sharp premium campaign quality"
+    }
+  ]
+}
