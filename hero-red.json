@@ -1,0 +1,22 @@
+{
+  "slug": "hodba-hero-red",
+  "style_base": "Premium sportswear campaign photography at sunrise, warm low sun behind the subject, strong horizontal panning motion blur on the background, razor sharp subject, wet clean pavement, editorial retouch.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no brand marks, no running, no jumping, no both feet in the air, no cartoon, no Asian or African features, no men, no dark sneakers, no black shoes.",
+  "images": [
+    {
+      "id": "r1",
+      "ratio": "1152:896",
+      "prompt": "Strict side view campaign shot at sunrise: an athletic Slavic European woman in a black technical tracksuit with a bold red stripe running down the whole sleeve, wearing BRIGHT RED sneakers, walking with a long confident stride along a wide city riverside promenade, rear foot pushing off the toe and front heel landing, back straight, blonde ponytail swinging, arms bent naturally, warm morning sun flaring behind her, background streaked with panning motion blur, water droplets kicked from the shoe"
+    },
+    {
+      "id": "r2",
+      "ratio": "1152:896",
+      "prompt": "Side profile sunrise campaign photograph: a fit Slavic European woman in black sportswear with a red stripe along the sleeve and vivid red running shoes, mid walking step with a wide powerful stride on a riverside embankment, city skyline dissolved in motion blur behind, golden sun rim lighting her silhouette, ponytail in motion, confident upright posture, premium advertising finish"
+    },
+    {
+      "id": "r3",
+      "ratio": "1152:896",
+      "prompt": "Sunrise sportswear campaign frame, strict side angle: a modern Slavic European woman walking fast along an empty promenade in a black jacket with a red sleeve stripe, black leggings and bright red trainers, long stride with both feet on the ground, warm sun burst behind, background smeared by camera panning, wet stone reflecting the light, energetic and elegant"
+    }
+  ]
+}
