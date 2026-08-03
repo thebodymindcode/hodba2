@@ -1,0 +1,12 @@
+{
+  "slug": "hodba-energy-day",
+  "style_base": "Cinematic premium editorial image, bright warm morning light, clear air, glowing orange energy effects, sharp detail.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no night, no dark gloomy scene, no cartoon, no visible faces, no Asian or African features.",
+  "images": [
+    {
+      "id": "energyday",
+      "ratio": "1152:896",
+      "prompt": "Bright golden morning scene seen from behind: four people walking forward together along a wide sunlit city embankment, powerful streams of glowing orange energy erupting from the ground up through their legs and bodies and trailing behind them like light ribbons, bright sparks bursting under every footstep, warm daylight and clear sky, long shadows on clean pavement, river and modern city softly blurred behind, uplifting powerful mood"
+    }
+  ]
+}
