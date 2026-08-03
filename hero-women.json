@@ -1,0 +1,22 @@
+{
+  "slug": "hodba-hero-women",
+  "style_base": "Iconic sportswear campaign photography at sunrise, warm low sun, panning motion blur on the background, razor sharp subject, premium editorial retouch, clean modern city.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no brand marks, no running, no jumping, no both feet in the air, no cartoon, no stock cliche, no Asian or African features, no men.",
+  "images": [
+    {
+      "id": "w1",
+      "ratio": "1152:896",
+      "prompt": "Side view panning campaign shot at sunrise: a modern athletic Slavic European woman about 35 with a ponytail, in black technical sportswear with a bold red stripe down the sleeve and red accents on her dark sneakers, caught mid walking step with a long confident stride on a wet clean riverside promenade, warm sun flare across the frame, background streaked with horizontal motion blur, tiny water droplets kicked up by the shoe, fabric and hair moving, high energy premium campaign look"
+    },
+    {
+      "id": "w2",
+      "ratio": "1152:896",
+      "prompt": "Low angle side campaign shot at sunrise: a stylish Slavic European woman in black leggings and a black jacket with red panels, red soles on her sneakers, walking with a powerful wide stride along an empty city embankment, golden morning sun behind her rimming the silhouette, blurred glass towers in the background, sharp subject, confident modern energy, hair caught in movement"
+    },
+    {
+      "id": "w3",
+      "ratio": "1152:896",
+      "prompt": "Three quarter front campaign shot at sunrise: a modern Slavic European woman in black technical sportswear with red accent details, dark sneakers with red soles, striding forward towards the camera on a wide clean promenade, warm sunrise light flooding from behind, background dissolved in motion blur, dust and light particles in the air, strong purposeful walk, premium advertising finish"
+    }
+  ]
+}
