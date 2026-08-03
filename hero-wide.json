@@ -1,0 +1,12 @@
+{
+  "slug": "hodba-hero-wide",
+  "style_base": "Premium sportswear campaign photography at sunrise, warm low sun behind the subject, strong horizontal panning motion blur on the background, razor sharp subject, wet clean riverside pavement, wide cinematic framing with air around the figure.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no brand marks, no running, no jumping, no both feet in the air, no cropped head, no cropped feet, no cartoon, no Asian or African features, no men.",
+  "images": [
+    {
+      "id": "wide",
+      "ratio": "1360:768",
+      "prompt": "Wide horizontal campaign frame, strict side view, full figure with space above the head and below the shoes: an athletic Slavic European woman in a black technical tracksuit with a bold red stripe running down the sleeve and bright red sneakers, walking with a long confident stride along a wide city riverside promenade at sunrise, rear foot pushing off the toe and front heel landing, ponytail swinging, warm morning sun flaring behind her, city skyline and river smeared by camera panning, wet stone reflecting the light"
+    }
+  ]
+}
