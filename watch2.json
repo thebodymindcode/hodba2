@@ -1,0 +1,13 @@
+{
+  "slug": "hodba-watch2",
+  "style_base": "Premium fashion campaign photography, warm morning light in a beautiful park, shallow depth of field, razor sharp detail on the watch screen, expensive modern styling.",
+  "negative": "No cap, no hat, no baseball cap, no messy hair, no cheap clothes, no watermark, no logo, no brand marks, no cartoon, no night, no Asian or African features."
+  ,
+  "images": [
+    {
+      "id": "watchman",
+      "ratio": "1152:896",
+      "prompt": "Side view close shot: a stylish modern Slavic European man in his early thirties with a sharp short haircut and light stubble, bare head without any cap, wearing an expensive black technical jacket and a premium steel smartwatch, walking along a sunlit park path and looking down at his watch, the watch screen clearly shows a bright red heartbeat pulse line and a heart rate number, confident posture, warm morning sun behind him, background beautifully blurred, editorial fashion campaign quality"
+    }
+  ]
+}
