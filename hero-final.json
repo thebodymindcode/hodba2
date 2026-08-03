@@ -1,0 +1,27 @@
+{
+  "slug": "hodba-hero-final",
+  "style_base": "Iconic sportswear campaign photography at sunrise, warm low sun, clean minimal composition, sharp subject with motion energy, editorial retouch, premium advertising finish.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no brand marks, no running, no jumping, no both feet in the air, no red sunset sky, no cartoon, no stock cliche, no Asian or African features.",
+  "images": [
+    {
+      "id": "f1",
+      "ratio": "1152:896",
+      "prompt": "Side view panning campaign shot at sunrise: a modern young Slavic European man in black technical sportswear with bright red accent stripes on the jacket and red details on his sneakers, walking with a long powerful stride along an empty city embankment, low camera angle, warm morning sun flaring from the side, strong horizontal motion blur on the background while the walker stays razor sharp, fabric moving with the step, dynamic and confident"
+    },
+    {
+      "id": "f2",
+      "ratio": "1152:896",
+      "prompt": "Sunrise campaign shot from a low front three quarter angle: an athletic Slavic European woman in black technical sportswear with red accent panels and red soles on her sneakers, mid walking stride towards the camera on a wide empty promenade, golden morning light behind her creating a bright rim, dust particles in the air, background softly blurred by motion, ponytail and fabric caught in movement, powerful confident energy"
+    },
+    {
+      "id": "f3",
+      "ratio": "1152:896",
+      "prompt": "Campaign shot from behind at low angle at sunrise: a Slavic European man in black technical sportswear with red accents on the shoulders and red flashes on the sneaker soles, striding away along a wide clean city embankment, warm morning sun rising ahead over the water, long shadow behind him, motion blur on the background, sharp subject, sense of forward momentum"
+    },
+    {
+      "id": "f4",
+      "ratio": "1152:896",
+      "prompt": "Dynamic knee to shoulder crop at sunrise: a Slavic European athlete in black sportswear with a bold red stripe on the sleeve and red accents on dark sneakers, caught mid walking step on wet clean pavement, one foot rolling heel to toe, warm sun flare across the frame, background streaked with motion blur, tiny water droplets kicked up, high energy premium campaign look"
+    }
+  ]
+}
