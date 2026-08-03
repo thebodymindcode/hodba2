@@ -1,0 +1,12 @@
+{
+  "slug": "hodba-watch",
+  "style_base": "Cinematic premium editorial photography, warm morning light, shallow depth of field, razor sharp detail on the watch screen.",
+  "negative": "No watermark, no logo, no brand marks, no cartoon, no night, no Asian or African features.",
+  "images": [
+    {
+      "id": "watchpulse",
+      "ratio": "1152:896",
+      "prompt": "Close cinematic shot from the side: a modern young Slavic European man in dark sportswear walking along a sunlit park path in the morning, he lifts his left wrist close to his chest and looks down at his smartwatch, the watch screen is clearly visible and shows a bright red heartbeat pulse line with a heart icon and a heart rate number, his face is partly turned away, warm sun behind, background softly blurred, sharp macro detail on the watch face"
+    }
+  ]
+}

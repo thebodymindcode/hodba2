@@ -1,0 +1,13 @@
+{
+  "slug": "hodba-park-energy",
+  "style_base": "Cinematic premium editorial image, warm golden morning light, beautiful modern city park, glowing energy effects, sharp detail, uplifting mood.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no buildings, no city skyline, no night, no dark gloomy scene, no cartoon, no Asian or African features, no visible faces."
+  ,
+  "images": [
+    {
+      "id": "parkenergy",
+      "ratio": "1152:896",
+      "prompt": "Seen from behind: a couple, a man and a woman in modern light sportswear, walking together along a wide clean path in a beautiful modern park at golden morning, tall green trees and manicured lawns around, sun rays through the leaves, powerful streams of golden and amber energy rising from the ground up through their legs and spreading through their bodies, glowing particles floating around them, warm light filling the whole frame, no buildings, uplifting and alive"
+    }
+  ]
+}
