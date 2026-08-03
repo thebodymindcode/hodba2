@@ -1,0 +1,13 @@
+{
+  "slug": "hodba-szhatie2",
+  "style_base": "Photorealistic editorial photography in the same series style: sunrise city embankment, warm low sun, muted graphite and fog palette with one warm orange accent, panning depth, premium magazine finish.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no drawn scribbles, no cartoon graphics, no illustration overlay, no horror, no Asian or African features, no readable face."
+  ,
+  "images": [
+    {
+      "id": "szhatie2",
+      "ratio": "1152:896",
+      "prompt": "Seen from behind on the same sunrise city embankment as the rest of the series: a young Slavic European man in dark clothes walks with visibly hunched tense shoulders and head bowed over his phone, his whole silhouette wrapped in a dense cold shadow that compresses him, while just ahead the promenade opens wide into warm orange sunrise light and clean air, strong contrast between his closed posture and the open sunlit space, photorealistic, no graphic overlays"
+    }
+  ]
+}
