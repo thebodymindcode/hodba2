@@ -184,7 +184,7 @@ em{font-style:italic}
 .product-eyebrow{font-family:var(--f-mono);font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,106,43,.85);margin-bottom:14px;position:relative;z-index:1}
 .product-block h2{color:#fff;font-size:clamp(1.55rem,4.4vw,2.05rem);margin:0 0 8px;position:relative;z-index:1}
 .product-sub{font-family:var(--f-mono);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(213,222,224,.75);margin-bottom:26px;position:relative;z-index:1}
-.product-block p{color:#D5DEE0;position:relative;z-index:1;margin-bottom:16px;font-size:1.03rem}
+.product-block p{color:#D5DEE0;position:relative;z-index:1;margin-bottom:16px;font-size:1.03rem;text-wrap:pretty}
 .product-block p strong{color:#FFC9A6}
 .product-note{font-size:.97rem;color:rgba(213,222,224,.72);line-height:1.7;position:relative;z-index:1}
 .product-list{list-style:none;margin:22px 0;position:relative;z-index:1}
@@ -195,6 +195,14 @@ em{font-style:italic}
 
 
 
+.pb-lead{position:relative;z-index:1;font-family:var(--f-display);font-size:clamp(1.14rem,3.2vw,1.32rem);font-weight:500;color:#fff;line-height:1.45;margin:0 0 26px}
+.pb-list{position:relative;z-index:1;display:grid;gap:12px;margin:0 0 30px}
+.pb-item{display:flex;gap:16px;align-items:flex-start;padding:18px 20px 18px 18px;background:rgba(255,255,255,.045);border-left:3px solid var(--accent-br);border-radius:2px}
+.pb-item svg{width:34px;height:34px;flex-shrink:0;stroke:var(--accent-br);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;margin-top:-1px}
+.pb-item span{font-size:1.01rem;line-height:1.55;color:#DCE5E7;text-wrap:pretty}
+.pb-item b{font-weight:600;color:#FFC9A6}
+.mark-d{background:linear-gradient(180deg,transparent 58%,rgba(255,106,43,.32) 58%,rgba(255,106,43,.32) 94%,transparent 94%);padding:.02em .1em;color:#fff}
+.pb-punch{position:relative;z-index:1;font-family:var(--f-display);font-size:clamp(1.12rem,3.1vw,1.28rem);font-style:italic;color:#fff;line-height:1.45;margin:26px 0 0;padding-top:22px;border-top:1px solid rgba(255,106,43,.28)}
 .product-emph{text-align:center;font-size:1.08rem;margin:26px 0 4px;position:relative;z-index:1;color:#fff}
 .product-emph strong{color:#FFB68C}
 .cta-wrap{text-align:center;margin:40px 0}
@@ -323,13 +331,14 @@ em{font-style:italic}
 </div>
 
 <div class="photo-block">
- <div class="ph-media"><img src="images/hero-red.jpg" alt="Женщина идёт широким шагом на рассвете, красная полоса на рукаве, ярко-красные кроссовки" width="1400" height="1127" fetchpriority="high"><div class="ovl"><div class="ovl-metric"><span class="ovl-num">7000</span><span class="ovl-unit">шагов &#8776; час ходьбы</span></div><svg viewBox="0 0 190 34" aria-hidden="true"><path d="M2 30C28 29 44 22 62 14 80 6 104 4 128 6c22 2 40 3 60 2"/></svg><span class="ovl-tag">Lancet, 2025</span></div></div>
+ <img src="images/hero-red.jpg" alt="Женщина идёт широким шагом на рассвете, красная полоса на рукаве, ярко-красные кроссовки" width="1400" height="1127" fetchpriority="high">
  <div class="photo-caption"><span>Утро &#183; час ходьбы &#183; примерно 7000 шагов</span><span class="tag">Кадр 01</span></div>
 </div>
 
 <div class="content">
-<p class="dropcap">Аристотель учил своих учеников на ходу – его школу так и назвали: перипатетики, «прогуливающиеся». Ницше писал: «Все истинно великие мысли приходят во время ходьбы». Дарвин каждый день ходил по одной и той же тропе, когда думал над теорией. Стив Джобс проводил важнейшие переговоры, шагая. Кьеркегор признавался: «Я вышагал свои лучшие мысли».</p>
-<p>Столетиями лучшие умы уходили думать на своих двоих и возвращались с тем, что переворачивало науку, книги, целые компании. Слова «нейробиология» они не знали. Они просто чувствовали то, что теперь можно измерить приборами: стоит телу пойти – и внутри следом приходит в движение что-то ещё.</p>
+<p class="lead-line">Аристотель учил своих учеников на ходу – его школу так и назвали: перипатетики, «прогуливающиеся».</p>
+<p class="dropcap">Ницше писал: «Все истинно великие мысли приходят во время ходьбы». Дарвин каждый день ходил по одной и той же тропе, когда думал над теорией. Стив Джобс проводил важнейшие переговоры, шагая. Кьеркегор признавался: «Я вышагал свои лучшие мысли».</p>
+<p>Столетиями лучшие умы уходили думать на своих двоих и возвращались с тем, что переворачивало науку, книги, целые компании. Слова «нейробиология» они не знали. Они просто чувствовали то, что теперь можно измерить приборами: <span class="mark">стоит телу пойти – и внутри следом приходит в движение что-то&nbsp;ещё.</span></p>
 <div class="voice">
  <p>«Все истинно великие мысли приходят во время ходьбы».</p>
  <div class="who">Фридрих Ницше</div>
@@ -337,14 +346,12 @@ em{font-style:italic}
 
 <p>Где приходят самые ясные мысли и неожиданные решения? Почти никогда не за рабочим столом, где их часами выжимают. А тогда, когда человек встал и пошёл – в душе, за рулём, по дороге домой. Тело сдвинулось, и то, что было наглухо закрыто, вдруг приоткрылось.</p>
 <p>Через пару страниц станет ясно, как это связано с деньгами, целями и тем масштабом, до которого годами не выходит дотянуться. Но сначала то, во что трудно поверить про саму ходьбу.</p>
-</div>
 
 <div class="photo-block">
- <div class="ph-media"><img src="images/mindstep.jpg" alt="Силуэт идущего человека, внутри светится нервная система и мозг" loading="lazy" width="1400" height="1127"><div class="ovl"><div class="ovl-metric"><span class="ovl-num">Каждый шаг</span><span class="ovl-unit">включает мозг и тело</span></div><svg viewBox="0 0 190 34" aria-hidden="true"><path d="M2 30C28 29 44 22 62 14 80 6 104 4 128 6c22 2 40 3 60 2"/></svg><span class="ovl-tag">Что внутри</span></div></div>
+ <img src="images/mindstep.jpg" alt="Силуэт идущего человека, внутри светится нервная система и мозг" loading="lazy" width="1400" height="1127">
  <div class="photo-caption"><span>Что происходит в теле и мозге, пока вы идёте</span><span class="tag">Кадр 02</span></div>
 </div>
 
-<div class="content">
 <h2>Начнём с того, во что трудно поверить</h2>
 <p>За последние пятнадцать лет ходьбу проверили на десятках тысяч людей, на снимках мозга и в цифрах, которые звучат почти невероятно. Вот только заработать на них нельзя: ходьбу не разлить по капсулам, не запатентовать и не продать в аптеке – поэтому о её настоящей силе говорят куда тише, чем она заслуживает.</p>
 <p>Ходьба – единственное действие, которое делает сразу пять вещей, и каждая тянет на отдельное открытие. Она заметно продлевает жизнь. Она наполняет тело энергией на уровне клеток. Она физически растит мозг. Она гасит тревогу там, где та рождается. И она резко поднимает способность находить решения.</p>
@@ -375,14 +382,12 @@ em{font-style:italic}
  <p class="fig-note">Источник: The Lancet Public Health, 2025. Мета-анализ 57 исследований, 160 000+ участников.</p>
 </div>
 <p>Почти вдвое ниже риск умереть. Треть риска деменции. Пятая часть депрессии. Ни одна таблетка в мире не закрывает такой список разом, а здесь его закрывает одно простое действие.</p>
-</div>
 
 <div class="photo-block bw">
- <div class="ph-media"><img src="images/lab-2.jpg" alt="Лаборатория: человек идёт по дорожке с датчиками, учёные смотрят на мониторы" loading="lazy" width="1400" height="1127"><div class="ovl"><div class="ovl-metric"><span class="ovl-num">160 000</span><span class="ovl-unit">участников</span></div><svg viewBox="0 0 190 34" aria-hidden="true"><path d="M2 30C28 29 44 22 62 14 80 6 104 4 128 6c22 2 40 3 60 2"/></svg><span class="ovl-tag">Мета-анализ</span></div></div>
+ <img src="images/lab-2.jpg" alt="Лаборатория: человек идёт по дорожке с датчиками, учёные смотрят на мониторы" loading="lazy" width="1400" height="1127">
  <div class="photo-caption"><span>160 000 участников &#183; 57 исследований &#183; 2025</span><span class="tag">Кадр 03</span></div>
 </div>
 
-<div class="content">
 <p>И обратите внимание: <strong>не 10 000</strong>. Легенда про десять тысяч шагов родилась из рекламного слогана японского шагомера 1960-х, а не из науки. Основная выгода набирается уже к семи тысячам – это примерно час спокойной ходьбы. Порог, до которого реально дойти сегодня.</p>
 <div class="figure">
  <div class="fig-head"><span class="fig-title">Где набирается основная выгода</span><span class="fig-tag">Фиг. 2</span></div>
@@ -398,70 +403,64 @@ em{font-style:italic}
   <text class="lbl" x="22" y="120" transform="rotate(-90 22 120)" text-anchor="middle">польза</text>
  </svg>
 </div>
+<div class="sep"><svg class="pulse" viewBox="0 0 74 20" aria-hidden="true"><path d="M1 10h13l4-7 5 14 5-11 4 4h10l4-6 4 12 4-8 3 2h13"/></svg></div>
 <div class="part-header"><span class="ph-left"><svg viewBox="0 0 24 24"><path d="M13 2 5 14h6l-1 8 9-12h-6z"/></svg>Открытие второе</span><span class="num">II</span></div>
 <h2 class="part-title">Каждый шаг строит внутри <span class="hl">новые электростанции</span></h2>
 <p>Откуда берётся то, что мы называем «энергией жизни»? Из митохондрий – крошечных электростанций внутри каждой клетки, которые превращают еду и кислород в чистую силу. Чем их больше и чем они мощнее, тем крепче здоровье и тем больше энергии у человека на всё: на работу, на жизнь, на цели и желания.</p>
-</div>
 
 <div class="photo-block">
- <img src="images/cell-2.jpg" alt="Макроснимок митохондрий: золотые капсулы энергии внутри мышечного волокна" loading="lazy" width="1400" height="1127">
+ <img src="images/mito-v1.jpg" alt="Митохондрии внутри мышечного волокна под электронным микроскопом, часть из них горит оранжевым" loading="lazy" width="1400" height="1127">
  <div class="photo-caption"><span>Митохондрии в мышечной ткани &#183; источник энергии клетки</span><span class="tag">Кадр 04</span></div>
 </div>
 
-<div class="content">
 <p>И вот что делает ходьба: каждая прогулка включает в мышцах белок с именем PGC-1α – главный переключатель, по команде которого тело <strong>строит новые митохондрии</strong>. Больше шагов – больше электростанций – больше энергии, выработанной самим телом, а не вытянутой из очередной чашки кофе.</p>
 <div class="data-panel"><div class="label">&#9608; Что стоит за словом «вялость»</div><p>Та вялость, когда к вечеру уже ни на что не остаётся сил, чаще всего означает простое: электростанций в теле стало слишком мало. Кофе подстёгивает их на час – ходьба отстраивает заново.</p></div>
+<div class="sep"><svg class="pulse" viewBox="0 0 74 20" aria-hidden="true"><path d="M1 10h13l4-7 5 14 5-11 4 4h10l4-6 4 12 4-8 3 2h13"/></svg></div>
 <div class="part-header"><span class="ph-left"><svg viewBox="0 0 24 24"><path d="M9 4a3 3 0 0 0-3 3 2.7 2.7 0 0 0-1.4 4.8A3 3 0 0 0 7 18a2.7 2.7 0 0 0 5 .7V5A2.7 2.7 0 0 0 9 4z"/><path d="M15 4a3 3 0 0 1 3 3 2.7 2.7 0 0 1 1.4 4.8A3 3 0 0 1 17 18a2.7 2.7 0 0 1-5 .7"/></svg>Открытие третье</span><span class="num">III</span></div>
 <h2 class="part-title">Ходьба физически <span class="hl">наращивает мозг</span></h2>
 <p>Ходьба не просто «полезна для головы» – она <strong>меняет структуру мозга</strong>, буквально, на снимках МРТ.</p>
 <p>Эксперимент Крамера и Эриксона (PNAS, 2011): людей попросили ходить по 40 минут трижды в неделю в течение года. Через год <strong>гиппокамп</strong>, центр памяти и обучения, <strong>вырос в объёме примерно на 2%</strong>. С возрастом эта зона обычно усыхает, а тут она развернулась вспять, будто мозг помолодел на год-два.</p>
-</div>
 
 <div class="photo-block">
- <div class="ph-media"><img src="images/brainscan-2.jpg" alt="Прозрачная модель мозга, внутренняя область подсвечена оранжевым" loading="lazy" width="1400" height="1127"><div class="ovl"><div class="ovl-metric"><span class="ovl-num">+2%</span><span class="ovl-unit">объём центра памяти</span></div><svg viewBox="0 0 190 34" aria-hidden="true"><path d="M2 30C28 29 44 22 62 14 80 6 104 4 128 6c22 2 40 3 60 2"/></svg><span class="ovl-tag">PNAS, 2011</span></div></div>
- <div class="photo-caption"><span>Гиппокамп &#183; плюс 2% за год ходьбы</span><span class="tag">Фиг. 3</span></div>
+ <img src="images/brainlamp-v1.jpg" alt="Снимки мозга на подставке под настольной лампой в лаборатории, рядом раскрытая тетрадь с записями" loading="lazy" width="1400" height="1127">
+ <div class="photo-caption"><span>Снимки до и после года ходьбы &#183; гиппокамп прибавил 2%</span><span class="tag">Кадр 05</span></div>
 </div>
 
-<div class="content">
 <div class="stat-row">
  <div class="stat"><div class="stat-num">40 мин</div><div class="stat-label">трижды в неделю</div></div>
  <div class="stat"><div class="stat-num">+2%</div><div class="stat-label">объём центра памяти<br>через год</div></div>
 </div>
 <p>Двигатель этого роста – молекула <strong>BDNF</strong>, которую учёные называют «удобрением для мозга»: она помогает нейронам выживать, ветвиться и строить новые связи. Ходьба поднимает её уровень, а вместе с ним возвращается <strong>пластичность</strong> – способность мозга меняться, учиться и переписывать старые сценарии на новые.</p>
-</div>
 
 <div class="photo-block">
- <div class="ph-media"><img src="images/neuron-2.jpg" alt="Нейроны отращивают новые ветви, светящиеся оранжевые связи" loading="lazy" width="1400" height="1127"><div class="ovl"><div class="ovl-metric"><span class="ovl-num">BDNF</span><span class="ovl-unit">удобрение для мозга</span></div><svg viewBox="0 0 190 34" aria-hidden="true"><path d="M2 30C28 29 44 22 62 14 80 6 104 4 128 6c22 2 40 3 60 2"/></svg><span class="ovl-tag">Новые связи</span></div></div>
- <div class="photo-caption"><span>Нейроны отращивают новые ветви &#183; рост связей</span><span class="tag">Фиг. 4</span></div>
+ <img src="images/neuron-2.jpg" alt="Нейроны отращивают новые ветви, светящиеся оранжевые связи" loading="lazy" width="1400" height="1127">
+ <div class="photo-caption"><span>Нейроны отращивают новые ветви &#183; рост связей</span><span class="tag">Кадр 06</span></div>
 </div>
 
-<div class="content">
 <div class="pullquote">Старая норма – это тоже нейронная цепь. Чтобы вырастить поверх неё новую, мозгу нужно удобрение. Каждый шаг его вырабатывает.</div>
+<div class="sep"><svg class="pulse" viewBox="0 0 74 20" aria-hidden="true"><path d="M1 10h13l4-7 5 14 5-11 4 4h10l4-6 4 12 4-8 3 2h13"/></svg></div>
 <div class="part-header"><span class="ph-left"><svg viewBox="0 0 24 24"><path d="M2 15c2.3-.8 3-3 3.8-6S7.3 5 8.8 5s2.3 2.2 3 6 1.6 5.2 3 5.2 2.3-1.5 3-3"/></svg>Открытие четвёртое</span><span class="num">IV</span></div>
 <h2 class="part-title">То, что не берётся мыслью, <span class="hl">берётся шагом</span></h2>
 <p>Тревогу невозможно передумать. Знакомо: одна и та же мысль наматывает круги, и чем сильнее пытаешься остановить её головой, тем крепче она затягивается. У этого есть точный адрес в мозге – субгенуальная префронтальная кора, та же зона, что горит при депрессии. Пока она активна, человек буквально прикован к мыслям о том, почему у него не выйдет.</p>
-</div>
 
 <div class="photo-block">
- <div class="ph-media"><img src="images/cortisol-2.jpg" alt="Научная визуализация: молекулы остывают из оранжевого в синий" loading="lazy" width="1400" height="1127"><div class="ovl"><div class="ovl-metric"><span class="ovl-num">90</span><span class="ovl-unit">минут по природе</span></div><svg viewBox="0 0 190 34" aria-hidden="true"><path d="M2 30C28 29 44 22 62 14 80 6 104 4 128 6c22 2 40 3 60 2"/></svg><span class="ovl-tag">PNAS, 2015</span></div></div>
- <div class="photo-caption"><span>90 минут по природе &#183; эксперимент 2015 года</span><span class="tag">Кадр 05</span></div>
+ <img src="images/cortisol-2.jpg" alt="Научная визуализация: молекулы остывают из оранжевого в синий" loading="lazy" width="1400" height="1127">
+ <div class="photo-caption"><span>90 минут по природе &#183; эксперимент 2015 года</span><span class="tag">Кадр 07</span></div>
 </div>
 
-<div class="content">
-<p>И вот что показал Стэнфорд (Братман, PNAS, 2015). Одни 90 минут шли по природе, другие – вдоль шумной трассы. У первых руминация спала, а активность этой тревожной зоны снизилась. Сам шаг разжал то, что голова разжать не могла: ноги сделали то, чего не смогли никакие уговоры изнутри.</p>
+<p>И вот что показал Стэнфорд (Братман, PNAS, 2015). Одни 90 минут шли по природе, другие – вдоль шумной трассы. У первых руминация спала, а активность этой тревожной зоны снизилась. Сам шаг разжал то, что голова разжать не могла: <span class="mark">ноги сделали то, чего не смогли никакие уговоры&nbsp;изнутри.</span></p>
 <p>Тревога держит человека маленьким: пока она гудит фоном, он не рискнёт, не назовёт свою цену, не потянется за большим. Шаг снимает её у корня – и место страха освобождается для движения.</p>
+<div class="sep"><svg class="pulse" viewBox="0 0 74 20" aria-hidden="true"><path d="M1 10h13l4-7 5 14 5-11 4 4h10l4-6 4 12 4-8 3 2h13"/></svg></div>
 <div class="part-header"><span class="ph-left"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 1 3.6 10.8c-.6.5-.9 1-1 1.7H9.4c-.1-.7-.4-1.2-1-1.7A6 6 0 0 1 12 3z"/></svg>Открытие пятое</span><span class="num">V</span></div>
 <h2 class="part-title">За одну прогулку решений становится <span class="hl">на 60% больше</span></h2>
 <p>А это уже вплотную к деньгам, к личному успеху, к любому большому прорыву. Ведь и деньги, и большие дела в конечном счёте рождаются из идеи, которую хватило смелости воплотить: из найденного хода, из точного решения, из разговора, на который наконец решились.</p>
 <p>Стэнфорд, снова (Оппеццо и Шварц, 2014): людям давали творческие задачи – сидя и на ходу. Во время ходьбы поток решений вырастал <strong>в среднем на 60%</strong>. И, что важнее, эффект <strong>держался ещё какое-то время после того</strong>, как человек садился обратно. Прогулка не просто помогала в моменте – она оставляла мозг в состоянии «вижу больше вариантов».</p>
-</div>
 
 <div class="photo-block">
- <div class="ph-media"><img src="images/decision-2.jpg" alt="Светлая набережная на рассвете, дорожка расходится на два пути" loading="lazy" width="1400" height="1127"><div class="ovl"><div class="ovl-metric"><span class="ovl-num">+60%</span><span class="ovl-unit">поток решений</span></div><svg viewBox="0 0 190 34" aria-hidden="true"><path d="M2 30C28 29 44 22 62 14 80 6 104 4 128 6c22 2 40 3 60 2"/></svg><span class="ovl-tag">Стэнфорд, 2014</span></div></div>
- <div class="photo-caption"><span>Дивергентное мышление &#183; плюс 60% на ходу</span><span class="tag">Кадр 06</span></div>
+ <img src="images/decision-2.jpg" alt="Светлая набережная на рассвете, дорожка расходится на два пути" loading="lazy" width="1400" height="1127">
+ <div class="photo-caption"><span>Дивергентное мышление &#183; плюс 60% на ходу</span><span class="tag">Кадр 08</span></div>
 </div>
 
-<div class="content">
 <div class="pullquote">Решение, которое месяц не находилось сидя, ждёт на сороковой минуте шага.</div>
 <div class="sep"><svg class="pulse" viewBox="0 0 74 20" aria-hidden="true"><path d="M1 10h13l4-7 5 14 5-11 4 4h10l4-6 4 12 4-8 3 2h13"/></svg></div>
 <h2>Как это превращается в деньги, цели и силу</h2>
@@ -476,14 +475,12 @@ em{font-style:italic}
 </div>
 <p>Всё по-настоящему большое живёт только в расширении. Деньги приходят к тому, кто занял своё место, а не жмётся с краю. Большая цель даётся тому, кто под неё расправился. Здоровье – телу, которое не проводит годы в глухой обороне. Одно состояние – и в нём сходятся сразу и деньги, и цели, и то, как человек себя чувствует.</p>
 <div class="pullquote">Стоишь на месте или хочешь расшириться – иди в ходьбу. Тело двинется вперёд, и всё остальное двинется следом.</div>
-</div>
 
 <div class="photo-block">
  <img src="images/watchstadium.jpg" alt="Мужчина на стадионе смотрит на часы, рядом всплывает пульс с кардиограммой" loading="lazy" width="1400" height="1127">
- <div class="photo-caption"><span>Всё, что описано выше, измеряется приборами</span><span class="tag">Кадр 07</span></div>
+ <div class="photo-caption"><span>Всё, что описано выше, измеряется приборами</span><span class="tag">Кадр 09</span></div>
 </div>
 
-<div class="content">
 <div class="doses">
  <div class="dose"><svg viewBox="0 0 32 32"><path d="M16 27s-9-5.5-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.5-9 12-9 12z"/></svg><div><div class="dose-num">7000 шагов в день</div><div class="dose-src">Lancet Public Health, 2025</div></div></div>
  <div class="dose"><svg viewBox="0 0 32 32"><path d="M13 5a4 4 0 0 0-4 4 3.4 3.4 0 0 0-2 6.2A4 4 0 0 0 10 23a3.4 3.4 0 0 0 6 .9V6.5A3.4 3.4 0 0 0 13 5z"/><path d="M19 5a4 4 0 0 1 4 4 3.4 3.4 0 0 1 2 6.2A4 4 0 0 1 22 23a3.4 3.4 0 0 1-6 .9"/></svg><div><div class="dose-num">40 минут трижды в неделю</div><div class="dose-src">Крамер и Эриксон, PNAS, 2011</div></div></div>
@@ -497,30 +494,35 @@ em{font-style:italic}
 <p>Ходьба – самый простой на свете вход в эту работу снизу. Шаг за шагом тело выходит из сжатия, тревога отпускает, и психика тихо соглашается на большее, потому что телу впервые за долгое время безопасно расти.</p>
 <h2>Ходить умеют все. Владеть ходьбой – единицы</h2>
 <p>Большинство ходят всю жизнь и не получают почти ничего из того, что описано выше. Потому что ходят на автопилоте – телефон, дела, та же тревожная жвачка в голове, что и за столом. Тело идёт, а человек остаётся в сжатии. Код есть у каждого, но он не расшифрован.</p>
-</div>
 
 <div class="photo-block">
  <img src="images/szhatie2.jpg" alt="Человек идёт по рассветной набережной, сгорбившись над телефоном, впереди открытый свет" loading="lazy" width="1400" height="1127">
- <div class="photo-caption"><span>Тело идёт, а человек остаётся в сжатии</span><span class="tag">Кадр 08</span></div>
+ <div class="photo-caption"><span>Тело идёт, а человек остаётся в сжатии</span><span class="tag">Кадр 10</span></div>
 </div>
 
-<div class="content">
 <div class="pullquote">Разница между «нахаживать шаги» и владеть ходьбой – как между «нажимать клавиши» и играть музыку. Инструмент один. Результат несопоставим.</div>
 </div>
 
 <div class="product-block">
  <div class="product-eyebrow">Практика ходьбы &#183; 21 день</div>
- <p>За 21 день мы передаём весь этот код целиком: как входить в шаг, чтобы тело переключалось из выживания в расширение; как снимать тревогу у самого корня; как забирать с прогулки решения вместо руминации; как направлять эту силу туда, где нужен рост – в здоровье, в деньги, в цели. Не хаотичные шаги для галочки, а точная последовательность, где каждый день встраивает одно звено новой нормы – той, что потом не откатывается.</p>
-<p>Почему 21 день и почему вместе – новому состоянию нужно время, чтобы стать прочнее старого, а старое цепко тянет назад в первые же дни. Поток идёт рядом ровно столько, сколько нужно, чтобы новая норма стала своей.</p>
-<p>А самое красивое здесь в простоте. Для этого не нужны зал, экипировка или лишние часы в расписании. Достаточно ног, которые и так при вас, и кода, который передаём мы. Один и тот же простой инструмент разворачивает сразу здоровье, ясность, деньги и покой, ведь все они питаются от одного состояния тела.</p>
+ <p class="pb-lead">За 21 день мы передаём весь этот код целиком:</p>
+ <div class="pb-list">
+  <div class="pb-item"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="14.2" cy="3.6" r="2.4"/><path d="M14.3 8.2 9.7 13.6l3.2 3.3-1.5 5.9"/><path d="M12.9 16.9l4.6 2 1.3 3.5"/><path d="M10 13.1 5.4 14.5"/><path d="M14.3 8.2l4.8 2.6"/></svg><span>как входить в шаг, чтобы тело переключалось из выживания в&nbsp;<b>расширение</b>;</span></div>
+  <div class="pb-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1.5 13.6h3.1l2.1-9.2 2.7 15.6 2.4-9.8 1.8 4.1H22.5"/></svg><span>как снимать тревогу <b>у самого корня</b>;</span></div>
+  <div class="pb-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.6 19h4.8"/><path d="M10.3 21.6h3.4"/><path d="M12 2.6a6.6 6.6 0 0 1 4 11.8c-.7.5-1.1 1.2-1.2 2H9.2c-.1-.8-.5-1.5-1.2-2A6.6 6.6 0 0 1 12 2.6z"/></svg><span>как забирать с прогулки <b>решения</b> вместо руминации;</span></div>
+  <div class="pb-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.2 18.2l6.2-6.2 3.7 3.7 8.1-8.1"/><path d="M14.4 7.6h6.4V14"/></svg><span>как направлять эту силу туда, где нужен <b>рост</b> – в здоровье, в деньги, в&nbsp;цели.</span></div>
+ </div>
+ <p>Не хаотичные шаги для галочки, а <span class="mark-d">точная последовательность</span>, где каждый день встраивает одно звено новой нормы – той, что потом не откатывается.</p>
+<p>Почему 21 день и почему вместе – новому состоянию нужно время, чтобы стать прочнее старого, а старое цепко тянет назад в первые же дни. Поток идёт рядом ровно столько, сколько нужно, <span class="mark-d">чтобы новая норма стала&nbsp;своей.</span></p>
+<p>А самое красивое здесь в простоте. Для этого не нужны зал, экипировка или лишние часы в расписании. <span class="mark-d">Достаточно ног, которые и так при&nbsp;вас</span>, и кода, который передаём мы. Один и тот же простой инструмент разворачивает сразу здоровье, ясность, деньги и покой, ведь все они питаются от одного состояния тела.</p>
  </div>
 
+<div class="content">
 <div class="photo-block">
  <img src="images/parkenergy.jpg" alt="Пара идёт по парку, из земли в них поднимаются золотые потоки энергии" loading="lazy" width="1400" height="1127">
- <div class="photo-caption"><span>Поток идёт рядом ровно столько, сколько нужно новой норме</span><span class="tag">Кадр 09</span></div>
+ <div class="photo-caption"><span>Поток идёт рядом ровно столько, сколько нужно новой норме</span><span class="tag">Кадр 11</span></div>
 </div>
 
-<div class="content">
 <h2>Проверьте прямо сейчас</h2>
 <p>Два коротких вопроса, и то, что держит вас на месте, станет видно своими глазами.</p>
 <p>Первый. Представьте сумму или цель, которую по-настоящему хотите, – так, будто это уже случилось, прямо сейчас. Побудьте там пару секунд и следите за телом.</p>
@@ -561,17 +563,18 @@ em{font-style:italic}
  <p class="fig-note">Схема хода программы, измерений здесь нет.</p>
 </div>
 
-</div>
+<div class="sep"><svg class="pulse" viewBox="0 0 74 20" aria-hidden="true"><path d="M1 10h13l4-7 5 14 5-11 4 4h10l4-6 4 12 4-8 3 2h13"/></svg></div>
 
+</div>
 
 <div class="product-block">
  <div class="product-eyebrow">Старт потока &#183; 5 августа</div>
  <h2>Практика Ходьбы · 21 день</h2>
  <p>Самый простой ключ из существующих – и один из самых мощных. За 21 день привычная ходьба превращается в точный инструмент, который сдвигает то, что стояло годами: тело, ясность, энергию, деньги и цели. Рост здесь идёт мягко – из состояния, в котором телу спокойно и безопасно расти.</p>
- <p>Код всё это время был при вас. Осталось его расшифровать.</p>
+ <p class="pb-punch">Код всё это время был при вас. Осталось его расшифровать.</p>
  <div class="cta-wrap">
   <a href="https://thebodymindcode.github.io/soznanie/hodba/" class="cta-btn cta-btn-large">Занять место в потоке &rarr;</a>
-  <span class="cta-btn-sub">21 день &#183; поток идёт рядом</span>
+  <span class="cta-btn-sub">Старт 5 августа &#183; поток идёт рядом 21 день</span>
  </div>
 </div>
 <div class="content">
