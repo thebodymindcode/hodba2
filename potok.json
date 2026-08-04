@@ -1,0 +1,13 @@
+{
+  "slug": "hodba-potok",
+  "style_base": "Premium documentary editorial photography, bright clear morning daylight, fresh natural colour, deep airy perspective, calm hopeful mood, magazine finish.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no golden hour, no stadium, no sport uniform, no running, no cartoon, no illustration."
+  ,
+  "images": [
+    {
+      "id": "potok",
+      "ratio": "1152:896",
+      "prompt": "A wide tree lined avenue in a modern city park on a bright clear morning, photographed from behind at a low angle. Tall leafy trees on both sides, a broad clean paved path stretching far into the distance, fresh green foliage, soft even daylight, lots of open air. Several people in ordinary stylish everyday clothes walk calmly in the same direction along the path, spaced far apart at different distances, each one alone and unhurried, upright and relaxed. The paved path in the near foreground is completely clear and open. Photorealistic documentary editorial photography, natural morning colour"
+    }
+  ]
+}
