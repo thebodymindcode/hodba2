@@ -1,0 +1,13 @@
+{
+  "slug": "hodba-krug",
+  "style_base": "Premium sports editorial photography, bright clean daylight, crisp modern stadium, fresh saturated colours, wide cinematic framing, sharp detail, calm confident mood, magazine finish.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no sunrise, no sunset, no golden hour, no orange sky, no backlit haze, no leather jacket, no coat, no jeans, no city embankment, no river, no crowd, no running, no sprinting, no cartoon, no illustration, no Asian or African features, no readable face."
+  ,
+  "images": [
+    {
+      "id": "krug",
+      "ratio": "1152:896",
+      "prompt": "Wide low shot down the lanes of a beautiful modern athletics stadium in bright clear midday daylight: deep terracotta red rubber running track with crisp white lane lines curving away, vivid green infield grass, clean empty grandstand and floodlight masts behind, blue sky with light clouds. A modern young Slavic European woman in clean minimal athletic wear, leggings and a light technical top, seen from behind and slightly to the side, is walking, not running, along the lane at an unhurried steady pace, shoulders open and relaxed, arms swinging freely, spine long, calm and self assured. Sharp photorealistic sports editorial photography, natural daylight colour, no golden hour, no graphic overlays"
+    }
+  ]
+}
