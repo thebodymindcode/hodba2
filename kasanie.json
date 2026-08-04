@@ -1,0 +1,13 @@
+{
+  "slug": "hodba-kasanie",
+  "style_base": "Photorealistic editorial photography in the same series style: muted graphite and cool fog palette, soft low daylight, desaturated greys, one single warm orange accent, premium magazine finish, extreme shallow depth of field.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no brand marks, no golden hour, no yellow tone, no running, no sprinting, no sport track, no cartoon, no illustration, no faces."
+  ,
+  "images": [
+    {
+      "id": "kasanie",
+      "ratio": "1152:896",
+      "prompt": "Extreme close up macro at ground level, camera almost on the pavement: the sole of a clean pale grey walking shoe a few millimetres above wet city asphalt, caught at the exact instant before it lands in an unhurried walking step. Fine dust and tiny water droplets lift off the stone, frozen in the air and lit from behind by a thin warm orange rim of light. Everything else is muted graphite grey and cool fog, the background blurred into soft bokeh, wet stone texture sharp and detailed in the foreground. Cinematic premium editorial macro photography, very shallow depth of field, quiet powerful mood"
+    }
+  ]
+}

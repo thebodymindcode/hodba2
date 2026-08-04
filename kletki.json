@@ -1,0 +1,13 @@
+{
+  "slug": "hodba-kletki",
+  "style_base": "Photorealistic editorial photography in the same series style: muted graphite and cool fog palette, soft overcast daylight, desaturated greys, one single warm orange accent, premium magazine finish, shallow depth of field.",
+  "negative": "No text, no letters, no words, no numbers, no printed calendar, no watermark, no logo, no brand, no warm wood, no golden light, no yellow tone, no cartoon, no illustration, no people, no faces, no hands."
+  ,
+  "images": [
+    {
+      "id": "kletki",
+      "ratio": "1152:896",
+      "prompt": "Top down still life on a smooth cool grey concrete surface, soft flat overcast daylight, muted graphite and fog colour palette, everything desaturated. An open notebook with plain off white paper, on the page a grid drawn by hand in dark graphite ink, three neat rows of seven empty squares, most squares already filled with a simple hand drawn tick in vivid warm orange ink, the last few squares still blank. A slim dark pen lies across the page. Beside it a small bunch of steel keys and one clean pale grey walking sneaker with a single thin orange stripe, at the edge of the frame. The orange ink and that stripe are the only warm colour in the whole image. Absolutely no written words, no numbers, no printed characters, only plain squares and ticks. Photorealistic premium editorial still life"
+    }
+  ]
+}
