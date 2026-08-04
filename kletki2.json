@@ -1,0 +1,13 @@
+{
+  "slug": "hodba-kletki2",
+  "style_base": "Photorealistic premium editorial still life in the same series style: muted graphite and cool fog palette, soft even overcast daylight, desaturated greys, one single warm orange accent, high end fashion product finish, crisp detail.",
+  "negative": "No text, no letters, no words, no numbers, no printed calendar, no watermark, no logo, no brand marks, no old worn shoes, no dirty shoes, no scuffed leather, no yellowed paper, no stains, no warm wood, no golden light, no cartoon, no illustration, no people, no hands."
+  ,
+  "images": [
+    {
+      "id": "kletki2",
+      "ratio": "1152:896",
+      "prompt": "Top down flat lay on a smooth cool grey concrete surface, soft even daylight, muted graphite palette. Centre left: a crisp modern notebook, matte charcoal cover, bright clean white paper, on the page a grid drawn by hand in fine graphite ink, three neat rows of seven small empty squares, seventeen of them already filled with a confident hand drawn tick in vivid warm orange ink, four squares left blank. A slim matte black pen rests above the grid. Right side: a brand new pair of modern minimalist premium sneakers, spotless bone white knit upper, sculpted chunky white sole, one thin vivid orange lace detail, arranged neatly side by side, styled like a high end fashion product photograph. A small set of polished steel keys between them. Only the orange ink and lace carry warm colour. No written words, no numbers, no printed characters anywhere"
+    }
+  ]
+}
