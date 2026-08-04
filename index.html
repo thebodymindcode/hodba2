@@ -191,6 +191,13 @@ em{font-style:italic}
 .product-list li{position:relative;padding-left:26px;margin-bottom:12px;color:#D5DEE0;font-size:1.01rem;line-height:1.5}
 .product-list li::before{content:'';position:absolute;left:0;top:.5em;width:11px;height:11px;border-radius:50%;border:2px solid var(--accent-br)}
 
+.prod-nums{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:28px 0 4px;position:relative;z-index:1}
+.pn{padding:16px 8px;border:1px solid rgba(255,106,43,.3);background:rgba(255,106,43,.07);text-align:center}
+.pn-num{display:block;font-family:var(--f-display);font-size:1.9rem;font-weight:700;color:#FFB68C;line-height:1}
+.pn-lab{display:block;font-family:var(--f-mono);font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:rgba(213,222,224,.7);margin-top:9px;line-height:1.55}
+.product-emph{text-align:center;font-size:1.08rem;margin:26px 0 4px;position:relative;z-index:1;color:#fff}
+.product-emph strong{color:#FFB68C}
+@media(max-width:768px){.prod-nums{grid-template-columns:repeat(2,1fr);gap:9px}.pn-num{font-size:1.7rem}}
 .cta-wrap{text-align:center;margin:40px 0}
 .cta-btn{display:inline-block;padding:22px 58px;background:linear-gradient(135deg,var(--accent-br),var(--accent-d));color:#fff;text-decoration:none;font-family:var(--f-body);font-size:1.2rem;font-weight:600;letter-spacing:.02em;cursor:pointer;transition:transform .25s,box-shadow .25s,background .25s;position:relative;z-index:1;border-radius:2px;box-shadow:0 4px 22px rgba(201,73,26,.3)}
 .cta-btn:hover{background:linear-gradient(135deg,#FF7C43,#B23F14);transform:translateY(-2px);box-shadow:0 8px 38px rgba(201,73,26,.45)}
@@ -503,19 +510,56 @@ em{font-style:italic}
 <p>За 21 день мы передаём весь этот код целиком: как входить в шаг, чтобы тело переключалось из выживания в расширение; как снимать тревогу у самого корня; как забирать с прогулки решения вместо руминации; как направлять эту силу туда, где нужен рост – в здоровье, в деньги, в цели. Не хаотичные шаги для галочки, а точная последовательность, где каждый день встраивает одно звено новой нормы – той, что потом не откатывается.</p>
 <p>Почему 21 день и почему вместе – новому состоянию нужно время, чтобы стать прочнее старого, а старое цепко тянет назад в первые же дни. Поток идёт рядом ровно столько, сколько нужно, чтобы новая норма стала своей.</p>
 <p>А самое красивое здесь в простоте. Для этого не нужны зал, экипировка или лишние часы в расписании. Достаточно ног, которые и так при вас, и кода, который передаём мы. Один и тот же простой инструмент разворачивает сразу здоровье, ясность, деньги и покой, ведь все они питаются от одного состояния тела.</p>
-<h2>Проверьте прямо сейчас</h2>
-<p>Два коротких вопроса, и то, что держит вас на месте, станет видно своими глазами.</p>
-<p>Первый. Представьте сумму или цель, которую по-настоящему хотите, – так, будто это уже случилось, прямо сейчас. Побудьте там пару секунд и следите за телом.</p>
-<p>Второй. Представьте, что завтра просыпаетесь с лёгкостью, полным сил, и тело за целый день ни разу не подводит. Тоже задержитесь – и наблюдайте.</p>
-<p>У большинства в этот момент внутри что-то сжимается: плечи подаются вперёд, дыхание мельчает, и почти сразу поднимается ощущение сомнения, тихой невозможности – будто это не получится или будет когда-нибудь потом. Вот вы и нащупали границу. Проходит она по телу и срабатывает раньше, чем включается мысль.</p>
-<p>Та же граница держит всё сразу: не даёт назвать цену, откладывает большое дело, отговаривает заняться собой, гасит смелость замахнуться. Один рефлекс сжатия – а от него зависят и деньги, и цели, и здоровье, и энергия.</p>
-<p>Спорить с этой границей бесполезно: она глубже любых слов. Двигается она через тело. И в этом вся суть ходьбы: она приводит в движение любой застой – в теле, в деньгах и в целях.</p>
 </div>
 
 <div class="photo-block">
  <img src="images/parkenergy.jpg" alt="Пара идёт по парку, из земли в них поднимаются золотые потоки энергии" loading="lazy" width="1400" height="1127">
  <div class="photo-caption"><span>Поток идёт рядом ровно столько, сколько нужно новой норме</span><span class="tag">Кадр 09</span></div>
 </div>
+
+<div class="content">
+<h2>Проверьте прямо сейчас</h2>
+<p>Два коротких вопроса, и то, что держит вас на месте, станет видно своими глазами.</p>
+<p>Первый. Представьте сумму или цель, которую по-настоящему хотите, – так, будто это уже случилось, прямо сейчас. Побудьте там пару секунд и следите за телом.</p>
+<p>Второй. Представьте, что завтра просыпаетесь с лёгкостью, полным сил, и тело за целый день ни разу не подводит. Тоже задержитесь – и наблюдайте.</p>
+<p>У большинства в этот момент внутри что-то сжимается: плечи подаются вперёд, дыхание мельчает, и почти сразу поднимается ощущение сомнения, тихой невозможности – будто это не получится или будет когда-нибудь потом. Вот вы и нащупали границу. Проходит она по телу и срабатывает раньше, чем включается мысль.</p>
+<p>Та же граница держит всё сразу: не даёт назвать цену, откладывает большое дело, отговаривает заняться собой, гасит смелость замахнуться. Один рефлекс сжатия – а от него зависят и деньги, и цели, и здоровье, и энергия.</p>
+<div class="checklist" id="selfCheck">
+ <div class="checklist-title">&#9608; Две минуты, честно</div>
+ <p class="checklist-intro">Отмечайте только то, что реально почувствовали телом, а не то, что должно быть правильно.</p>
+ <label><input type="checkbox" onchange="updateCheck()"> <span>Представил сумму или цель, которую по-настоящему хочу, будто это уже случилось.</span></label>
+ <label><input type="checkbox" onchange="updateCheck()"> <span>Представил, что завтра просыпаюсь лёгким, полным сил, и тело за день ни разу не подводит.</span></label>
+ <label><input type="checkbox" onchange="updateCheck()"> <span>Плечи подались вперёд, дыхание стало мельче, внутри что-то сжалось.</span></label>
+ <label><input type="checkbox" onchange="updateCheck()"> <span>Поднялось сомнение: не выйдет, не сейчас, когда-нибудь потом.</span></label>
+ <label><input type="checkbox" onchange="updateCheck()"> <span>Поймал мысль «мне бы для этого другие условия, другой возраст, другую жизнь».</span></label>
+ <label><input type="checkbox" onchange="updateCheck()"> <span>Захотелось поскорее закрыть картинку и вернуться к делам.</span></label>
+ <div class="checklist-result" id="res2"><p><strong>Вы только что увидели её работу.</strong> Тело ответило раньше мысли: сначала сжатие, потом объяснение, почему сейчас не время.</p></div>
+ <div class="checklist-result" id="res4"><p><strong>Чем больше отметок, тем плотнее держит граница.</strong> Она одна на все области сразу: цена, большое дело, забота о себе, смелость замахнуться.</p></div>
+ <div class="checklist-result" id="res6"><p><strong>И это хорошая новость.</strong> Раз граница живёт в теле, значит и сдвигается она телом. Через шаг, а не через уговоры.</p></div>
+</div>
+
+<p>Спорить с этой границей бесполезно: она глубже любых слов. Двигается она через тело. И в этом вся суть ходьбы: она приводит в движение любой застой – в теле, в деньгах и в целях.</p>
+
+<div class="figure">
+ <div class="fig-head"><span class="fig-title">Как встаёт новая норма</span><span class="fig-tag">Фиг. 5</span></div>
+ <p class="fig-sub">Первые дни старое цепко тянет назад, к третьей неделе новое состояние держится само.</p>
+ <div class="days">
+  <div class="days-track">
+   <div class="day" style="height:18%"></div><div class="day" style="height:22%"></div><div class="day" style="height:20%"></div>
+   <div class="day" style="height:27%"></div><div class="day" style="height:31%"></div><div class="day" style="height:29%"></div>
+   <div class="day" style="height:38%"></div><div class="day" style="height:43%"></div><div class="day" style="height:41%"></div>
+   <div class="day" style="height:50%"></div><div class="day" style="height:55%"></div><div class="day" style="height:53%"></div>
+   <div class="day" style="height:62%"></div><div class="day" style="height:67%"></div><div class="day" style="height:66%"></div>
+   <div class="day" style="height:74%"></div><div class="day" style="height:79%"></div><div class="day" style="height:82%"></div>
+   <div class="day" style="height:88%"></div><div class="day" style="height:94%"></div><div class="day" style="height:100%"></div>
+  </div>
+  <div class="days-legend"><span>День 1</span><span>Неделя 2</span><span>День 21</span></div>
+ </div>
+ <p class="fig-note">Схема хода программы, измерений здесь нет.</p>
+</div>
+
+</div>
+
 
 <div class="product-block">
  <div class="product-eyebrow">Программа потока &#183; старт 5 августа</div>
@@ -524,15 +568,23 @@ em{font-style:italic}
 
  <p>Самый простой ключ из существующих – и один из самых мощных. За 21 день привычная ходьба превращается в точный инструмент, который сдвигает то, что стояло годами: тело, ясность, энергию, деньги и цели. Рост здесь идёт мягко – из состояния, в котором телу спокойно и безопасно расти.</p>
 
+ <div class="prod-nums">
+  <div class="pn"><span class="pn-num">21</span><span class="pn-lab">день<br>рядом с потоком</span></div>
+  <div class="pn"><span class="pn-num">75</span><span class="pn-lab">минут в день,<br>утро и вечер</span></div>
+  <div class="pn"><span class="pn-num">6</span><span class="pn-lab">режимов<br>ходьбы</span></div>
+  <div class="pn"><span class="pn-num">27</span><span class="pn-lab">часов движения<br>за поток</span></div>
+ </div>
+
  <ul class="product-list">
-  <li>у каждой сессии прописаны темп, дыхание, взгляд, среда и голос</li>
-  <li>тест первого дня определяет ваш вход, дальше настройки меняются</li>
-  <li>сессия заканчивается действием в реальную жизнь, пока держится эффект</li>
-  <li>27 часов движения и замеры до и после: пульс, сон, талия, сахар</li>
-  <li>план на плохую погоду и на неделю, которая рушится</li>
+  <li><strong>Технология вместо пожеланий.</strong> У каждой сессии прописаны темп, дыхание, взгляд, среда и голос. Инструкция, по которой идёте с первого утра.</li>
+  <li><strong>Режим под ваш механизм.</strong> Тест первого дня определяет вход, дальше настройки меняются под то, что чинится сегодня.</li>
+  <li><strong>Действие в тот же день.</strong> Сессия заканчивается шагом в реальную жизнь, пока держится эффект прогулки.</li>
+  <li><strong>Тело получает половину.</strong> Замеры до и после: пульс, сон, талия, сахар. Результат виден в цифрах, а не на словах.</li>
+  <li><strong>Сделано под жизнь.</strong> План на плохую погоду, короткая версия на тяжёлый день, пропуск не обнуляет поток.</li>
+  <li><strong>Наука с именами.</strong> За каждой настройкой стоит исследование, источники открыты и проверяемы.</li>
  </ul>
 
- <p class="product-note">Код всё это время был при вас. Осталось его расшифровать.</p>
+ <p class="product-emph"><strong>Код всё это время был при вас. Осталось его расшифровать.</strong></p>
 
  <div class="cta-wrap">
   <a href="https://thebodymindcode.github.io/soznanie/hodba/" class="cta-btn cta-btn-large">Занять место в потоке &rarr;</a>
@@ -567,6 +619,12 @@ em{font-style:italic}
 </div><!-- .page -->
 
 <script>
+function updateCheck(){
+ var c=document.querySelectorAll('#selfCheck input[type="checkbox"]:checked').length;
+ document.getElementById('res2').className='checklist-result'+(c>=2?' show':'');
+ document.getElementById('res4').className='checklist-result'+(c>=4?' show':'');
+ document.getElementById('res6').className='checklist-result'+(c>=6?' show':'');
+}
 (function(){
  var bar=document.getElementById('progress');
  function tick(){var h=document.documentElement.scrollHeight-window.innerHeight;bar.style.width=(h>0?(window.scrollY/h)*100:0)+'%';}
