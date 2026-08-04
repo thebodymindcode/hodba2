@@ -1,0 +1,13 @@
+{
+  "slug": "hodba-raspravlen",
+  "style_base": "Photorealistic editorial photography in the same series style: sunrise city embankment, warm low sun, muted graphite and fog palette with one warm orange accent, panning depth, premium magazine finish.",
+  "negative": "No text, no letters, no numbers, no watermark, no logo, no drawn scribbles, no cartoon graphics, no illustration overlay, no horror, no Asian or African features, no readable face, no phone, no hunched posture."
+  ,
+  "images": [
+    {
+      "id": "raspravlen",
+      "ratio": "1152:896",
+      "prompt": "Seen from behind on the same sunrise city embankment as the rest of the series, mirroring an earlier frame of a hunched man: now a young Slavic European man in dark clothes walks with shoulders rolled open and back, spine long, head lifted, arms swinging free, hands empty and no phone anywhere, his stride wide and unhurried, the cold blue shadow left behind him while he moves fully into wide warm orange sunrise light that fills the open promenade ahead, clean air, long soft shadow stretching back from his feet, quiet confident release in the whole silhouette, photorealistic, no graphic overlays"
+    }
+  ]
+}
